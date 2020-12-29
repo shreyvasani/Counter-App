@@ -1,0 +1,14 @@
+<div class="container">
+  <header>
+    <h1>{{title}}</h1>
+  </header>
+  <main>
+    <!-- {{}} this is called the interpolation in the angular world-->
+    <h2>Your counter is : {{count}}</h2>
+    <!-- (click)="function()" is called the event binding in angular world -->
+    <button (click)="increase()">Increase Counter</button>
+    <button (click)="decrease()">Decrease Counter</button>
+    <button (click)="reset()">Reset Counter</button>
+
+  </main>
+</div>
