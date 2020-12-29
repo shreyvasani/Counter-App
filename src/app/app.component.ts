@@ -10,8 +10,8 @@ export class AppComponent {
   count:number = 0;
 
   increase = () => {
-    if(this.count === 10){
-      alert("cant increase above 10")
+    if(this.count === 1000){
+      alert("cant increase above 10000")
     }
     else{
       this.count = this.count + 1;
